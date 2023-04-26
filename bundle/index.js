@@ -15,6 +15,12 @@ function create() {
     return 2;
 }
 const zefri = () => "Zefri";
+let user;
+user = {
+    akunid: 192168,
+    namaakun: "Zefry",
+    aktifakun: true
+};
 console.log({ namasaya });
 console.log({ gua });
 console.log({ ID });
@@ -24,3 +30,4 @@ console.log({ diriku });
 console.log({ oranglain });
 console.log(create());
 console.log(zefri());
+console.log({ user });
