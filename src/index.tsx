@@ -4,23 +4,29 @@ let isDead: boolean = false;
 
 let roleplay = "Drian Matteus";
 
-//contoh variabel bisa tipe data
-// let diriku: number | string | boolean;
-// diriku = 14;
-// diriku = "Patrzalek";
-// diriku = true;
+let gua: number | string | boolean;
+gua = 14;
+gua = "Patrzalek";
+gua = true;
 
-// array biasa
 let diriku: string[];
-diriku = ["James", "Ramu"];
+diriku = ["James", "Drian"];
 
-// tuple array
 let oranglain: [string, number, boolean];
 oranglain = ["Patrzalek", 2206, true]
 
+function create(): number {
+    return 2;
+}
+
+const zefri = ():string => "Zefri"
+
 console.log({ namasaya });
+console.log({ gua })
 console.log({ ID });
 console.log({ isDead });
 console.log({ roleplay });
 console.log({ diriku });
 console.log({ oranglain });
+console.log(create())
+console.log(zefri())
