@@ -21,6 +21,19 @@ function create(): number {
 
 const zefri = ():string => "Zefri"
 
+type Akun = {
+    akunid: number
+    namaakun: string
+    aktifakun?: boolean
+};
+
+let user: Akun;
+user = {
+    akunid: 192168,
+    namaakun: "Zefry",
+    aktifakun: true
+}
+
 console.log({ namasaya });
 console.log({ gua })
 console.log({ ID });
@@ -30,3 +43,4 @@ console.log({ diriku });
 console.log({ oranglain });
 console.log(create())
 console.log(zefri())
+console.log({ user })
