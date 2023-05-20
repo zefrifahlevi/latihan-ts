@@ -58,3 +58,5 @@ function add(x: number, y: number): void {
     console.log("Totalnya adalah: " + v)
 }
 add(10, 20)
+
+console.log("Zefri Fahlevi")
