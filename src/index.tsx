@@ -59,4 +59,13 @@ function add(x: number, y: number): void {
 }
 add(10, 20)
 
-console.log("Zefri Fahlevi")
+function learn(u: number, e: number): number {
+    return u + y
+}
+learn(5, 5)
+
+function learn2(p: number, o: number): string {
+    return `Hasil dari ${p} + ${o} adalah: ${p + o}` 
+}
+const hasil = learn2(10, 50)
+console.log(hasil)
