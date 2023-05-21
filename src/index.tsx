@@ -72,15 +72,23 @@ console.log(hasil)
 
 interface Icompany {
     brandname: string;
+    founder: string;
     website: string;
+    established: string;
 };
 
 function perusahaan (deskripsi: Icompany): void {
-    console.log(`Nama Perusahaan ${deskripsi.brandname}`)
+    console.log(`
+    Nama Perusahaan ${deskripsi.brandname}
+    Founder kami ${deskripsi.founder}
+    Didirikan pada ${deskripsi.established}
+    `)
 };
 
 const Icompany2 = {
     brandname: "Zef Company",
+    founder: "Zefri Fahlevi",
     website: "zefcompany.com",
+    established: "20 Mei 2023"
 }
 perusahaan(Icompany2);

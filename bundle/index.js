@@ -54,11 +54,17 @@ const hasil = learn2(10, 50);
 console.log(hasil);
 ;
 function perusahaan(deskripsi) {
-    console.log(`Nama Perusahaan ${deskripsi.brandname}`);
+    console.log(`
+    Nama Perusahaan ${deskripsi.brandname}
+    Founder kami ${deskripsi.founder}
+    Didirikan pada ${deskripsi.established}
+    `);
 }
 ;
 const Icompany2 = {
     brandname: "Zef Company",
+    founder: "Zefri Fahlevi",
     website: "zefcompany.com",
+    established: "20 Mei 2023"
 };
 perusahaan(Icompany2);
