@@ -60,7 +60,7 @@ function add(x: number, y: number): void {
 add(10, 20)
 
 function learn(u: number, e: number): number {
-    return u + y
+    return u + e
 }
 learn(5, 5)
 
@@ -69,3 +69,18 @@ function learn2(p: number, o: number): string {
 }
 const hasil = learn2(10, 50)
 console.log(hasil)
+
+interface Icompany {
+    brandname: string;
+    website: string;
+};
+
+function perusahaan (deskripsi: Icompany): void {
+    console.log(`Nama Perusahaan ${deskripsi.brandname}`)
+};
+
+const Icompany2 = {
+    brandname: "Zef Company",
+    website: "zefcompany.com",
+}
+perusahaan(Icompany2);

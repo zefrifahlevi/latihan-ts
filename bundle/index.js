@@ -43,3 +43,22 @@ function add(x, y) {
     console.log("Totalnya adalah: " + v);
 }
 add(10, 20);
+function learn(u, e) {
+    return u + e;
+}
+learn(5, 5);
+function learn2(p, o) {
+    return `Hasil dari ${p} + ${o} adalah: ${p + o}`;
+}
+const hasil = learn2(10, 50);
+console.log(hasil);
+;
+function perusahaan(deskripsi) {
+    console.log(`Nama Perusahaan ${deskripsi.brandname}`);
+}
+;
+const Icompany2 = {
+    brandname: "Zef Company",
+    website: "zefcompany.com",
+};
+perusahaan(Icompany2);
