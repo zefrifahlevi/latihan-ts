@@ -82,6 +82,7 @@ function perusahaan (deskripsi: Icompany): void {
     Nama Perusahaan ${deskripsi.brandname}
     Founder kami ${deskripsi.founder}
     Didirikan pada ${deskripsi.established}
+    Website kami ${deskripsi.website}
     `)
 };
 
