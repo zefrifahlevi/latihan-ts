@@ -58,6 +58,8 @@ function perusahaan(deskripsi) {
     Nama Perusahaan ${deskripsi.brandname}
     Founder kami ${deskripsi.founder}
     Didirikan pada ${deskripsi.established}
+    Website kami ${deskripsi.website}
+    Anggota Kami = ${deskripsi.members}
     `);
 }
 ;
@@ -65,6 +67,7 @@ const Icompany2 = {
     brandname: "Zef Company",
     founder: "Zefri Fahlevi",
     website: "zefcompany.com",
-    established: "20 Mei 2023"
+    established: "20 Mei 2023",
+    members: "Leader | Zefri Fahlevi",
 };
 perusahaan(Icompany2);

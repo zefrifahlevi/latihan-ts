@@ -75,6 +75,7 @@ interface Icompany {
     founder: string;
     website: string;
     established: string;
+    members: string;
 };
 
 function perusahaan (deskripsi: Icompany): void {
@@ -83,6 +84,7 @@ function perusahaan (deskripsi: Icompany): void {
     Founder kami ${deskripsi.founder}
     Didirikan pada ${deskripsi.established}
     Website kami ${deskripsi.website}
+    Anggota Kami = ${deskripsi.members}
     `)
 };
 
@@ -90,6 +92,7 @@ const Icompany2 = {
     brandname: "Zef Company",
     founder: "Zefri Fahlevi",
     website: "zefcompany.com",
-    established: "20 Mei 2023"
+    established: "20 Mei 2023",
+    members: "Leader | Zefri Fahlevi",
 }
 perusahaan(Icompany2);
