@@ -9,8 +9,9 @@ gua = 14;
 gua = "Patrzalek";
 gua = true;
 
-let diriku: string[];
+/*let diriku: string[];
 diriku = ["James", "Drian"];
+*/
 
 let oranglain: [string, number, boolean];
 oranglain = ["Patrzalek", 2206, true]
@@ -39,7 +40,7 @@ console.log({ gua })
 console.log({ ID });
 console.log({ isDead });
 console.log({ roleplay });
-console.log({ diriku });
+// console.log({ diriku });
 console.log({ oranglain });
 console.log(create())
 console.log(zefri())
@@ -96,3 +97,16 @@ const Icompany2 = {
     members: "Leader | Zefri Fahlevi",
 }
 perusahaan(Icompany2);
+
+let diriku: string = "Be Yourself"
+let today: boolean = true  // True | False
+let yesterday: boolean = true // True
+
+if (yesterday = today ) {
+    console.log("Zefri's Way..");
+    console.log(`Not Different You Are In The Right Path (${diriku})`);
+} 
+else {
+    console.log("Zefri's Way..");
+    console.log("Today Is Different From Yesterday");
+}
