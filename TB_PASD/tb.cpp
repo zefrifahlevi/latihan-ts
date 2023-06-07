@@ -6,8 +6,7 @@
 using namespace std;
 
 // Fungsi untuk proses bisnis stack (misalnya manajemen buku perpustakaan)
-void stackBusiness()
-{
+void stackBusiness() {
     stack<string> bookStack;
 
     int choice;
@@ -52,8 +51,7 @@ void stackBusiness()
 }
 
 // Fungsi untuk proses bisnis queue (misalnya antrian pemesanan tiket)
-void queueBusiness()
-{
+void queueBusiness() {
     queue<int> ticketQueue;
 
     int choice, ticketNumber;
@@ -87,7 +85,7 @@ void queueBusiness()
                 }
                 break;
             case 0:
-                cout << "Logging out from queue interface...\n";
+                cout << "Logout dari Queue Panel\n";
                 break;
             default:
                 cout << "Invalid choice.\n";
@@ -96,13 +94,45 @@ void queueBusiness()
     } while (choice != 0);
 }
 
-int main(){
+void adminpanel() {
+    int pilihan;
+
+    do {
+        cout << "Selamat Datang di admin Panel \n";
+        cout << "Pilih Program di Bawah ini \n";
+        cout << "1. Stack Bisnis \n";
+        cout << "2. Queue Bisnis \n";
+        cout << "0. Logout \n";
+        cout << "Pilihan:";
+        cin >> pilihan;
+
+        switch (pilihan)
+        {
+        case 1:
+            stackBusiness();
+            break;
+        
+        case 2:
+            queueBusiness();
+            break;
+        case 0:
+            cout << "Logout dari Admin Panel";
+            break;
+        default:
+            cout << "Pilihan tidak sesuai";
+            break;
+        }
+    }
+    while (pilihan != 0);
+}
+
+int main() {
     string username, password;
 
     // Loop login
     while (true) {
-    	cout << "Selamat Datang di Program Penampungan Barang";
-    	cout << "Silahkan untuk Melakukan Login";
+    	cout << "Selamat Datang di Program Penampungan Barang \n";
+    	cout << "Silahkan untuk Melakukan Login \n";
     	cout << "Username: ";
         cin >> username;
         cout << "Password: ";
@@ -111,6 +141,7 @@ int main(){
         if (username == "admin" && password == "admin123"){
             // Admin interface
             cout << "\nWelcome, Admin!\n";
+            adminpanel();
             // Implement admin interface functionality
             break;
         }
