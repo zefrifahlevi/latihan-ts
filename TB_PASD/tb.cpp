@@ -96,7 +96,7 @@ void queueBusiness() {
 
 void adminpanel() {
     int pilihan;
-
+    
     do {
         cout << "Selamat Datang di admin Panel \n";
         cout << "Pilih Program di Bawah ini \n";
@@ -140,7 +140,7 @@ int main() {
 
         if (username == "admin" && password == "admin123"){
             // Admin interface
-            cout << "\nWelcome, Admin!\n";
+            cout << "\nWelcome, Admin Panel!\n";
             adminpanel();
             // Implement admin interface functionality
             break;
