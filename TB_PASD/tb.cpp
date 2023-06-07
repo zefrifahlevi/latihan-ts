@@ -126,7 +126,7 @@ void adminpanel() {
     while (pilihan != 0);
 }
 
-int main() {
+void login() {
     string username, password;
 
     // Loop login
@@ -162,4 +162,30 @@ int main() {
             cout << "Invalid username or password. Please try again";
 		}
 	}
+}
+
+int main() {
+    int pilihlogin;
+    do {
+        cout << "Selamat Datang di Program Penampungan Barang \n";
+        cout << "Pilih Program di Bawah ini \n";
+        cout << "1. Login User \n";
+        cout << "0. Exit Program \n";
+        cout << "Pilihan:";
+        cin >> pilihlogin;
+
+        switch (pilihlogin)
+        {
+        case 1:
+            login();
+            break;
+        case 0:
+            cout << "Keluar Program";
+            break;
+        default:
+            cout << "Pilihan tidak sesuai";
+            break;
+        }
+    }
+    while (pilihlogin != 0);
 }
