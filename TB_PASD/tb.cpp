@@ -15,8 +15,8 @@ void stackBusiness() {
     do
     {
         cout << "\nStack Business\n";
-        cout << "1. Push Book\n";
-        cout << "2. Pop Book\n";
+        cout << "1. Masukan Barang\n";
+        cout << "2. Keluarkan Barang\n";
         cout << "0. Logout\n";
         cout << "Choice: ";
         cin >> choice;
@@ -24,10 +24,10 @@ void stackBusiness() {
         switch (choice)
         {
             case 1:
-                cout << "Enter book title: ";
+                cout << "Masukan Barang: ";
                 cin >> bookTitle;
                 bookStack.push(bookTitle);
-                cout << "Book pushed.\n";
+                cout << "Barang Telah dimasukan.\n";
                 break;
             case 2:
                 if (!bookStack.empty())
@@ -59,8 +59,8 @@ void queueBusiness() {
     do
     {
         cout << "\nQueue Business\n";
-        cout << "1. Enqueue Ticket\n";
-        cout << "2. Dequeue Ticket\n";
+        cout << "1. Enqueue Tiket Antrian Pengambilan Barang\n";
+        cout << "2. Dequeue Penambahan Tiket Antrian Pengambilan Barang\n";
         cout << "0. Logout\n";
         cout << "Choice: ";
         cin >> choice;
