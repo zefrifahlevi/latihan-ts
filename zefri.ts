@@ -10,22 +10,22 @@ interface Intel extends IProcessor {
 
 }
 
-function spekPC (data: IProcessor): void {
+function spekLaptop (data: IProcessor): void {
     console.log(`
-    Speksifikasi dari PC 1
+    Speksifikasi dari Laptop Zefri
     Nama Perusahaan ${data.brandname}
-    Founder kami ${data.baseModel}
-    Didirikan pada ${data.modelName}
-    Website kami ${data.clockSpeed}
-    Anggota Kami = ${data.turboBoost}
+    Tipe Laptop ${data.baseModel}
+    Jenis Laptop ${data.modelName}
+    Benchmark ${data.clockSpeed}
+    turboApps? = ${data.turboBoost}
     `)
 };
 
 const intelI5 = {
-    brandname: "Zef Company",
-    baseModel: "Zefri Fahlevi",
-    modelName: "zefcompany.com",
+    brandname: "Apple MacBook",
+    baseModel: "MacBook",
+    modelName: "MacBook Pro Air M1",
     clockSpeed: 200,
     turboBoost: true,
 }
-spekPC(intelI5);
+spekLaptop(intelI5);
