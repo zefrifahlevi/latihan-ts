@@ -33,7 +33,7 @@ spekLaptopzefri(airM1);
 
 function spekLaptopzefa (data2: IProcessor): void {
     console.log(`
-    Spesifikasi dari Laptop zefa
+    Spesifikasi dari Laptop Zefa
     Nama Perusahaan: ${data2.brandname}
     Tipe Laptop: ${data2.baseModel}
     Jenis Laptop: ${data2.modelName}
@@ -49,5 +49,4 @@ const tufGaming = {
     clockSpeed: 500,
     turboBoost: true,
 }
-
 spekLaptopzefa(tufGaming)
