@@ -17,7 +17,7 @@ function spekLaptopzefri (data: IProcessor): void {
     Tipe Laptop: ${data.baseModel}
     Jenis Laptop: ${data.modelName}
     Benchmark = ${data.clockSpeed}
-    turboApps? = ${data.turboBoost}
+    turboApps = ${data.turboBoost}
     `)
 };
 
@@ -38,7 +38,7 @@ function spekLaptopzefa (data2: IProcessor): void {
     Tipe Laptop: ${data2.baseModel}
     Jenis Laptop: ${data2.modelName}
     Benchmark = ${data2.clockSpeed}
-    turboApps? = ${data2.turboBoost}
+    turboApps = ${data2.turboBoost}
     `)
 };
 
