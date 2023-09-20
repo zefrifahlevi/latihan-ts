@@ -10,3 +10,4 @@ else {
     console.log("Zefri's Way..");
     console.log("Today Is Different From Yesterday");
 }
+console.log("Testing")
