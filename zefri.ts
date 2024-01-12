@@ -51,7 +51,30 @@ const Piano = {
 
 spekPianozefri(Piano)
 
+interface IPods {
+    namaModel: string;
+    jenisModel: string;
+    madeProduct: string;
+    rateProduct: number;
+}
 
+function spekInpodszefri (data3: IPods): void {
+    console.log(`
+    Spesifikasi Inpods: ${data3.namaModel}
+    Jenis Model: ${data3.jenisModel}
+    Made Product: ${data3.madeProduct}
+    Rating Product: ${data3.rateProduct}
+    `)
+}
+
+const Inpodszef = {
+    namaModel: "Inpods i13",
+    jenisModel: "Wireless Earphone",
+    madeProduct: "Made in China",
+    rateProduct: 99,
+}
+
+spekInpodszefri(Inpodszef)
 
 /* -------Berubah Pikiran-----------
 
