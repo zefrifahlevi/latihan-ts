@@ -76,6 +76,30 @@ const Inpodszef = {
 
 spekInpodszefri(Inpodszef)
 
+interface smartWatch {
+    watchName: string;
+    watchModel: string;
+    watchProduct: string;
+    watchRate: number;
+}
+
+function spekSmartwatchzefri (data4: smartWatch): void {
+    console.log(`
+    Spesifikasi: ${data4.watchName}
+    Jenis Model: ${data4.watchModel}
+    Made Produk: ${data4.watchProduct}
+    Rating Produk: ${data4.watchRate}
+    `)
+}
+
+const watchZef = {
+    watchName: "SmartWatch T800 Ultra",
+    watchModel: "SmartWatch",
+    watchProduct: "Made in China",
+    watchRate: 99,
+}
+
+spekSmartwatchzefri(watchZef)
 /* -------Berubah Pikiran-----------
 
 interface Intel extends IProcessor {
