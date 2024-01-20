@@ -100,6 +100,8 @@ const watchZef = {
 }
 
 spekSmartwatchzefri(watchZef)
+
+
 /* -------Berubah Pikiran-----------
 
 interface Intel extends IProcessor {
@@ -125,5 +127,6 @@ const airM1 = {
     clockSpeed: 200,
     turboBoost: true,
 }
+
 spekLaptopzefri(airM1);
 */
