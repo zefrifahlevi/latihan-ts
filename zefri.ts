@@ -8,7 +8,7 @@ interface IProcessor {
 
 function spekLaptopzefri (data2: IProcessor): void {
     console.log(`
-    Spesifikasi dari Laptop Zeffri
+    Spesifikasi dari Laptop Zefri
     Nama Perusahaan: ${data2.brandname}
     Tipe Laptop: ${data2.baseModel}
     Jenis Laptop: ${data2.modelName}
