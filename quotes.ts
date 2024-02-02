@@ -15,7 +15,7 @@ const zefri2: string = "Keep Walking";
 let today2: boolean = true // True | False
 let yesterday2 : boolean = true // True | False
 
-if (yesterday = today) {
+if (yesterday2 = today2) {
     console.log("Zefri's Way..");
     console.log(`Not Different You Are In The Right Path (${zefri2})`);
 }
